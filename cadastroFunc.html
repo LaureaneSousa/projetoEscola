@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
+    <title>Funcionario</title>
 </head>
+
 <body>
     <header>
         <section>
@@ -23,7 +25,46 @@
     </header>
 
     <main>
-
+        <h1>CADASTRO DE FUNCIONÁRIO</h1>
+        <section>
+            <label for="nome">Nome da criança:</label>
+            <input type="text" name="nome" placeholder="Digite o nome da criança">
+            <br>
+            <label for="dn">Data de nascimento:</label>
+            <input type="date" name="dn">
+            <br>
+            <label for="genero">Gênero:</label>
+            <input type="radio" name="genero"> Feminino
+            <input type="radio" name="genero"> Masculino
+            <br>
+            <label for="foto">Foto:</label>
+            <input type="file">
+            <br>
+            <label for="escola">CPF:</label>
+            <input type="text" minlength="11" maxlength="11">
+            <br>
+            <label for="cmat">E-mail</label>
+            <input type="email">
+            <br>
+            <label for="resp">Habilidades:</label>
+            <input type="text">
+            <br>
+            <label for="end">Endereço</label>
+            <input type="text">
+            <label for="cep">CEP:</label>
+            <input type="text" minlength="8" maxlength="8">
+            <br>
+            <label for="ddd">DDD</label>
+            <input type="text" minlength="2" maxlength="2">
+            <label for="cel">Celular:</label>
+            <input type="tel" minlength="8" maxlength="9">
+            <br>
+            <label for="pcd">Possui algum transtorno ou deficiência?</label>
+            <input type="radio" name="pcd"> Sim
+            <input type="radio" name="pcd"> Não
+            <label for="laudo">Laudo:</label>
+            <input type="file">
+        </section>
     </main>
 
     <footer>
@@ -33,4 +74,5 @@
         </section>
     </footer>
 </body>
+
 </html>
