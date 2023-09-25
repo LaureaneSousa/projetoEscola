@@ -1,2 +1,2 @@
 # projetoEscola
-Projeto genérico para a construção de uma plataforma online
+Projeto genérico para a construção de uma plataforma onlinepara uma escola
