@@ -213,6 +213,15 @@ button{
 
 }
 
+.login{
+    margin: auto;
+    justify-content: center;
+    width: 40%;
+    text-align: center;
+    padding-top: 10%;
+    line-height: 2;
+}
+
 /* classes específicas*/
 
 P.p-val{
