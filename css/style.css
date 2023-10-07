@@ -173,6 +173,12 @@ button{
     padding-bottom: 3%;
 }
 
+.progresso{
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 10%;
+}
 
 /* classes específicas*/
 
