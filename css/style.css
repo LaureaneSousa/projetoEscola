@@ -77,7 +77,7 @@ button{
 .menu-ancora{
     padding-top: 3%;
     padding-left: 5%;
-    padding-bottom: 1.5%;
+    padding-bottom: 3%;
     line-height: 1.5;
 }
 
@@ -86,11 +86,6 @@ button{
     justify-content: end;
 }
 
-.bi-brilliance{
-    font-size: 60px;
-    color: var (--cor-da-empresa);
-    padding-left: 1%;
-}
 
 .foot .m-foot{
     display: flex;
@@ -162,6 +157,34 @@ button{
     padding-top: 1%;
 }
 
+.ementa{
+    display: flex;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    justify-content: space-between; 
+}
+
+.identificacao{
+    display: flex;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-bottom: 3%;
+}
+
+
+/* classes específicas*/
+
+P.p-val{
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: right; 
+    width: 50%;
+    justify-content: end;
+    padding-left: 50%;
+}
+
 p.esquerda{
     text-align: left;
     padding-left: 2%;
@@ -175,22 +198,20 @@ p.direita{
 
 }
 
-.ementa{
-    padding-top: 2%;
-  align-items: center;
-}
-
-/* classes específicas*/
-
-P.p-val{
-    margin-left: 0%;
-    margin-right: 0%;
-    text-align: right; 
-    width: 50%;
-    justify-content: end;
-    padding-left: 50%;
-}
-
 input.texto{
     width: 50%;
+}
+
+/* imagens */
+
+.bi-person-bounding-box{
+    font-size: 40px;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.bi-brilliance{
+    font-size: 60px;
+    color: var (--cor-da-empresa);
+    padding-left: 1%;
 }
