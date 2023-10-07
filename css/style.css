@@ -23,11 +23,12 @@ body{
     min-height: 100vh;
 }
 
-header, footer{
+header, footer {
     border: 2px solid ;
     padding: 1%;
     margin: 1%;
 }
+
 
 ul{
     list-style: none;
@@ -86,10 +87,14 @@ button{
     justify-content: end;
 }
 
+.foot{
+    width: 95%;
+}
 
 .foot .m-foot{
     display: flex;
     padding-left: 2%;
+    width: 95%;
 }
 
 .missao{
@@ -179,6 +184,23 @@ button{
     justify-content: center;
     padding-bottom: 10%;
 }
+
+.item{
+    margin: auto;
+    width: 20%;
+    background-color: var(--cor-da-empresa);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.divisao{
+    display: flex;
+     flex-wrap: wrap;
+     width: 70%;
+     margin: auto;
+}
+
 
 /* classes específicas*/
 
