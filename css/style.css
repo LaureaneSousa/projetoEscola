@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@300&display=swap');
+
+*{ 
+    padding: 0%;
+    margin: 0%;
+    font-family: Roboto;
+
+}
+
+body{
+    min-height: 100vh;
+}
+
+:root{
+--background-clean: beige;
+--cor-da-empresa: purple;
+}
+
+
+header, footer{
+    border: 2px solid ;
+    padding: 1%;
+    margin: 1%;
+}
+
+.head{
+     width: 95%;    
+}
+
+.menu{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+.ul-menu{
+    display: flex;
+    justify-content: end;
+}
+
+.bi-brilliance{
+    font-size: 60px;
+    color: var (--cor-da-empresa);
+    padding-left: 1%;
+}
+
+li{
+    padding-left: 5%;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 3%;
+   
+}
+
+.foot .m-foot{
+    display: flex;
+    padding-left: 2%;
+}
+
