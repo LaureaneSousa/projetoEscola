@@ -49,7 +49,9 @@ label{
     font-weight: bold;
 }
 
-
+button{
+    width: 15%;
+}
 
 
 /*propriedades*/
@@ -128,6 +130,12 @@ label{
     padding-bottom: 1%;
 }
 
+.botao{
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 
 /* classes específicas*/
 
