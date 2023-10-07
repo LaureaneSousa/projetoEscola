@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto:wght@300&display=swap');
 
+
+/*tags*/
+
 *{ 
     padding: 0%;
     margin: 0%;
@@ -11,17 +14,52 @@ body{
     min-height: 100vh;
 }
 
-:root{
---background-clean: beige;
---cor-da-empresa: purple;
-}
-
-
 header, footer{
     border: 2px solid ;
     padding: 1%;
     margin: 1%;
 }
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding-left: 5%;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 3%;
+   
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 3%;
+}
+
+label{
+    font-weight: bold;
+}
+
+
+
+
+/*propriedades*/
+
+:root{
+--background-clean: beige;
+--cor-da-empresa: purple;
+}
+
+/*classes*/
 
 .head{
      width: 95%;    
@@ -29,10 +67,6 @@ header, footer{
 
 .menu{
     display: flex;
-}
-
-ul{
-    list-style: none;
 }
 
 .ul-menu{
@@ -44,17 +78,6 @@ ul{
     font-size: 60px;
     color: var (--cor-da-empresa);
     padding-left: 1%;
-}
-
-li{
-    padding-left: 5%;
-}
-
-h1{
-    text-align: center;
-    font-size: 50px;
-    padding-left: 3%;
-   
 }
 
 .foot .m-foot{
@@ -88,6 +111,26 @@ h1{
     text-align: center;
 }
 
+
+
+.cad{
+    margin: auto;
+    justify-content: center;
+    width: 40%;
+    text-align: left;
+    padding-top: 2%;
+    line-height: 2;
+}
+
+.curso{
+    justify-content: center;
+    padding-left: 5%;
+    padding-bottom: 1%;
+}
+
+
+/* classes específicas*/
+
 P.p-val{
     margin-left: 0%;
     margin-right: 0%;
@@ -97,6 +140,6 @@ P.p-val{
     padding-left: 50%;
 }
 
-h2{
-    font-size: 30px;
+input.texto{
+    width: 50%;
 }

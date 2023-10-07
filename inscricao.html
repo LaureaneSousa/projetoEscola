@@ -26,15 +26,15 @@
     </header>
 
     <main>
-        <h1>INSCRIÇÃO</h1>
-        <section>
-            <div>
+        <h3>INSCRIÇÃO</h3>
+        <section class="cad">
+            <div class="curso">
                 <label for="op">Curso:</label>
                 <input type="radio" name="op"> Curso 1
                 <input type="radio" name="op"> Curso 2
             </div>
             <label for="nome">Nome da criança:</label>
-            <input type="text" name="nome" placeholder="Digite o nome da criança">
+            <input  class="texto"  type="text" name="nome" placeholder="Digite o nome da criança">
             <br>
             <label for="dn">Data de nascimento:</label>
             <input type="date" name="dn">
@@ -47,13 +47,13 @@
             <input type="file">
             <br>
             <label for="escola">Escola:</label>
-            <input type="text">
+            <input class="texto" type="text">
             <br>
             <label for="cmat">Comprovante de matrícula</label>
             <input type="file">
             <br>
             <label for="resp">Nome do responsável:</label>
-            <input type="text">
+            <input class="texto" type="text">
             <br>
             <label for="end">Endereço</label>
             <input type="text">
@@ -68,6 +68,7 @@
             <label for="pcd">Possui algum transtorno ou deficiência?</label>
             <input type="radio" name="pcd"> Sim
             <input type="radio" name="pcd"> Não
+            <br>
             <label for="laudo">Laudo:</label>
             <input type="file">
         </section>
