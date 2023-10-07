@@ -26,10 +26,10 @@
     </header>
 
     <main>
-        <h1>CADASTRO DE FUNCIONÁRIO</h1>
-        <section>
-            <label for="nome">Nome da criança:</label>
-            <input type="text" name="nome" placeholder="Digite o nome da criança">
+        <h3>CADASTRO DE FUNCIONÁRIO</h3>
+        <section class="cad">
+            <label for="nome">Nome:</label>
+            <input class="texto" type="text" name="nome" placeholder="Digite o nome">
             <br>
             <label for="dn">Data de nascimento:</label>
             <input type="date" name="dn">
@@ -41,14 +41,14 @@
             <label for="foto">Foto:</label>
             <input type="file">
             <br>
-            <label for="escola">CPF:</label>
+            <label for="cpf">CPF:</label>
             <input type="text" minlength="11" maxlength="11">
             <br>
             <label for="cmat">E-mail</label>
             <input type="email">
             <br>
             <label for="resp">Habilidades:</label>
-            <input type="text">
+            <input class="texto"  type="text">
             <br>
             <label for="end">Endereço</label>
             <input type="text">
@@ -63,10 +63,11 @@
             <label for="pcd">Possui algum transtorno ou deficiência?</label>
             <input type="radio" name="pcd"> Sim
             <input type="radio" name="pcd"> Não
+            <br>
             <label for="laudo">Laudo:</label>
             <input type="file">
         </section>
-        <section>
+        <section class="botao">
             <button>Enviar</button>
         </section>
     </main>
