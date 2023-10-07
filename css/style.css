@@ -38,6 +38,9 @@ li{
     padding-left: 5%;
 }
 
+table, th, td {
+    border: 1px solid var(--cor-da-empresa);
+}
 
 h1{
     text-align: center;
@@ -199,6 +202,8 @@ button{
      flex-wrap: wrap;
      width: 70%;
      margin: auto;
+     padding-top: 3%;
+     padding-bottom: 1%;
 }
 
 
