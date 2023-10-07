@@ -62,3 +62,41 @@ h1{
     padding-left: 2%;
 }
 
+.missao{
+    padding-left: 2%;
+    justify-content: left;
+    width: 50%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.valores{
+    padding-right: 2%;
+    justify-content: right;
+    width: 95%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-align: right;  
+}
+
+.midia{
+    padding-left: 2%;
+    width: 95%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    justify-content: center;
+    text-align: center;
+}
+
+P.p-val{
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: right; 
+    width: 50%;
+    justify-content: end;
+    padding-left: 50%;
+}
+
+h2{
+    font-size: 30px;
+}
