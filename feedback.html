@@ -24,19 +24,21 @@
     </header>
 
     <main>
-        <section>
+        <section class="identificacao">
             <div>
                 <p>Turma</p>
-                <p>Data</p>
+                
             </div>
         </section>
-        <section>
+        <br>
+        <section class="curso-lista">
+            <div class="linha">
             <p>Nome do aluno</p>
             <label for="data">Data</label>
             <input type="date">
             <br>
             <label for="atv">Atividade:</label>
-            <input type="text">
+            <input class="texto" type="text">
             <br>
             <label for="">Realizou a atividade?</label>
             <input type="radio"> Sim
@@ -52,8 +54,41 @@
             </select>
             <br>
             <label for="">Feedback</label>
-            <input type="">
+            <textarea name="" id="" cols="95" rows="10"></textarea>
+        </div>
         </section>
+        <br>
+           <section class="curso-lista">
+            <div class="linha">
+            <p>Nome do aluno</p>
+            <label for="data">Data</label>
+            <input type="date">
+            <br>
+            <label for="atv">Atividade:</label>
+            <input class="texto" type="text">
+            <br>
+            <label for="">Realizou a atividade?</label>
+            <input type="radio"> Sim
+            <input type="radio"> Não
+            <br>
+            <label for="">Desempenho</label>
+            <select name="Desempenho" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <label for="">Feedback</label>
+            <textarea name="" id="" cols="95" rows="10"></textarea>
+        </div>
+        </section>
+
+        <section class="botao">
+            <button >Enviar</button>
+        </section>
+
     </main>
 
    <footer>
