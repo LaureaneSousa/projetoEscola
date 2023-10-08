@@ -35,4 +35,30 @@ function CadAluno(){
      }
 }
 
+function CadFunc(){
+    var nome = document.getElementById("nome");
+    var dn = document.getElementById("dn");
+    var gen = document.getElementById("dn");
+    var cpf = document.getElementById("escola");
+    var habilidades = document.getElementById("resp");
+    var email = document.getElementById("emailCad")
+    var end = document.getElementById("end");
+    var fone = document.getElementById("fone");
+    var pcd = document.getElementById("pcd");
+
+    if ( nome.value =="" || dn.value==""  ||
+            gen.value == "" || cpf.value=="" || 
+            habilidades.value=="" ||
+            email.value == "" || end.value == "" ||
+            fone.value==""  || pcd.value=="" ){
+
+        alert("Preencha todos os campos!");
+     }else{
+
+         alert("Cadastro efetuado com sucesso!");
+     }
+}
+
+
+
 
