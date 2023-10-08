@@ -8,6 +8,8 @@
     <title>login</title>
 </head>
 <body>
+    <script src="script.js"></script>
+
     <header class="head">
         <nav class="menu" >
             <i class="bi bi-brilliance"></i>
@@ -25,14 +27,15 @@
 
     <main>
         <section class="login">
+            <form name="formulario" action=""></form>
             <label for="">E-mail:</label>
-            <input type="email">
+            <input id="email" type="email">
             <br>
             <label for="">Senha:</label>
-            <input type="password">
+            <input id="password" type="password">
         </section>
         <section class="botao">
-            <button>Entrar</button>
+            <input class="enviar" type="submit" class="enviar" onclick="Login();" value="Enviar" />
         </section>
     </main>
 

@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <script src="script.js"></script>
+    
     <header class="head">
         <nav class="menu" >
             <i class="bi bi-brilliance"></i>
@@ -28,6 +30,8 @@
     <main>
         <h3>INSCRIÇÃO</h3>
         <section class="cad">
+            <form  name="form" action= ""  
+                method="post" onsubmit="return submissaoForm()">
             <div class="curso">
                 <label for="op">Curso:</label>
                 <input type="radio" name="op"> Curso 1
@@ -71,6 +75,7 @@
             <br>
             <label for="laudo">Laudo:</label>
             <input type="file">
+        </form>
         </section>
         <section class="botao">
             <button>Enviar</button>

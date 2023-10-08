@@ -10,6 +10,8 @@
 </head>
 
 <body>
+    <script src="script.js"></script>
+    
     <header class="head">
         <nav class="menu" >
             <i class="bi bi-brilliance"></i>
@@ -27,56 +29,58 @@
     <main>
         <h3>CADASTRO DE ESTUDANTE</h3>
         <section class="cad">
+            <form name="cadastroAluno" action=""></form>
             <div class="curso">
                 <label for="op">Curso:</label>
-                <input type="radio" name="op"> Curso 1
-                <input type="radio" name="op"> Curso 2
+                <input id="op" type="radio" name="op"> Curso 1
+                <input id="op" type="radio" name="op"> Curso 2
             </div>
             <label for="nome">Nome da criança:</label>
-            <input class="texto" type="text" name="nome" placeholder="Digite o nome da criança">
+            <input id="nome" class="texto" type="text" name="nome" placeholder="Digite o nome da criança">
             <br>
             <label for="dn">Data de nascimento:</label>
-            <input type="date" name="dn">
+            <input id="dn" type="date" name="dn">
             <br>
             <label for="genero">Gênero:</label>
-            <input type="radio" name="genero"> Feminino
+            <input id="gen" type="radio" name="genero"> Feminino
             <input type="radio" name="genero"> Masculino
             <br>
             <label for="foto">Foto:</label>
             <input type="file">
             <br>
             <label for="escola">Escola:</label>
-            <input  class="texto" type="text">
+            <input  id="escola" class="texto" type="text">
             <br>
             <label for="cmat">Comprovante de matrícula</label>
-            <input type="file">
+            <input id="mat" type="file">
             <br>
             <label for="resp">Nome do responsável:</label>
-            <input   class="texto" type="text">
+            <input id="resp"  class="texto" type="text">
             <br>
             <label for="cmat">E-mail</label>
-            <input type="email">
+            <input id="emailCad" type="email">
             <br>
             <label for="end">Endereço</label>
-            <input type="text">
+            <input id="end" type="text">
             <label for="cep">CEP:</label>
             <input type="text" minlength="8" maxlength="8">
             <br>
             <label for="ddd">DDD</label>
             <input type="text" minlength="2" maxlength="2">
             <label for="cel">Celular:</label>
-            <input type="tel" minlength="8" maxlength="9">
+            <input id="fone" type="tel" minlength="8" maxlength="9">
             <br>
             <label for="pcd">Possui algum transtorno ou deficiência?</label>
-            <input type="radio" name="pcd"> Sim
-            <input type="radio" name="pcd"> Não
+            <input id="pcd" type="radio" name="pcd"> Sim
+            <input id="pcd" type="radio" name="pcd"> Não
             <br>
             <label for="laudo">Laudo:</label>
             <input type="file">
         </section>
         
             <section class="botao">
-                <button >Enviar</button>
+                <input class="enviar" type="submit" class="enviar" onclick="CadAluno();" value="Enviar" />
+       
             </section>
         
 

@@ -222,6 +222,14 @@ button{
     line-height: 2;
 }
 
+.enviar{
+    text-align: center;
+    justify-content: center;
+    width: 10%;
+    margin: auto;
+    
+}
+
 /* classes específicas*/
 
 P.p-val{
