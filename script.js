@@ -85,6 +85,22 @@ function Inscricao(){
      }
     };
 
+    function Feedback(){
+        var dt = document.getElementById("dt");
+        var atv = document.getElementById("atv");
+        var atvOp = document.getElementById("atvOP");
+        var resposta = document.getElementById("resposta");
+       
+        if ( dt.value =="" || atv.value=="" ||
+             atvOp=="" || resposta.value==""){
+        alert("Preencha todos os campos!");
+    }else{
+
+        alert("Cadastro efetuado com sucesso!");
+    }
+
+    };
+
 
 
 

@@ -35,15 +35,17 @@
         <section class="curso-lista">
             <div class="linha">
             <p>Nome do aluno</p>
+            <form name="cadastroAluno" action=""></form>
+            
             <label for="data">Data</label>
-            <input type="date">
+            <input id="dt" type="date">
             <br>
             <label for="atv">Atividade:</label>
-            <input class="texto" type="text">
+            <input id="atv" class="texto" type="text">
             <br>
             <label for="">Realizou a atividade?</label>
-            <input type="radio"> Sim
-            <input type="radio"> Não
+            <input id="atvOp" type="radio"> Sim
+            <input id="atvOP" type="radio"> Não
             <br>
             <label for="">Desempenho</label>
             <select name="Desempenho" id="">
@@ -69,8 +71,8 @@
             <input class="texto" type="text">
             <br>
             <label for="">Realizou a atividade?</label>
-            <input type="radio"> Sim
-            <input type="radio"> Não
+            <input id="atvOp" type="radio"> Sim
+            <input id="atvOp" type="radio"> Não
             <br>
             <label for="">Desempenho</label>
             <select name="Desempenho" id="">
@@ -82,12 +84,13 @@
             </select>
             <br>
             <label for="">Feedback</label>
-            <textarea name="" id="" cols="95" rows="10"></textarea>
+            <textarea id="resposta" name="" id="" cols="95" rows="10"></textarea>
         </div>
         </section>
 
         <section class="botao">
-            <button >Enviar</button>
+            <input class="enviar" type="submit" class="enviar" onclick="Feedback();" value="Enviar" />
+       
         </section>
 
     </main>
