@@ -29,6 +29,10 @@ header, footer {
     margin: 1%;
 }
 
+table, td, th {
+    border: 1px solid var(--cor-da-empresa);
+}
+
 
 ul{
     list-style: none;
@@ -36,10 +40,6 @@ ul{
 
 li{
     padding-left: 5%;
-}
-
-table, th, td {
-    border: 1px solid var(--cor-da-empresa);
 }
 
 h1{
@@ -208,7 +208,7 @@ button{
 
 .tabela{
     margin: auto;
-    width: 70%;
+    width: 90%;
    
 
 }
@@ -277,4 +277,20 @@ input.texto{
 #tabelas{
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+#dia{
+    width: 15%;
+    
+}
+
+#aluno{
+    width: 100%;
+}
+
+#presenca{
+    margin: auto;
+    justify-content: center;
+   
+    text-align: center;
 }

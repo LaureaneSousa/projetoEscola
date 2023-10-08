@@ -101,6 +101,20 @@ function Inscricao(){
 
     };
 
+function Chamada(){
+    var dia = document.getElementById("dia");
+    var presenca = document.getElementById("presenca");
+    
+    if ( dia.value =="" || presenca.value=="" ){
+    
+    alert("Preencha todos os campos!");
+}else{
+
+    alert("Cadastro efetuado com sucesso!");
+}
+
+};
+
 
 
 
