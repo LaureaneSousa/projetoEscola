@@ -115,6 +115,30 @@ function Chamada(){
 
 };
 
+function mostrarEnd(dados){
+    //console.log(dados.localidade);
+    let end = document.querySelector(#end);
+
+   end.innerHTML = dados.localidade;
+}
+
+function buscaCep(){
+    let cep = document.querySelector(#cep).value;
+    if(cep.length != 8){
+        alert ("Preencha o CEP corretamente!");
+        return
+    }
+
+    let url = "https://viacep.com.br/ws/$(cep)json/";
+    fetch(url).then(funtion(response){
+        response.json().then(funtion(data){
+          //  console.log(data);
+
+          mostrarEnd(data);
+        })
+    })
+}
 
 
 
+buscaCep();
